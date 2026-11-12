@@ -1,0 +1,2 @@
+679f66afc5da9e00025ca23e6664059a8bab14d3de27d07127947198cdae06f6  companion_sources.zip
+545b5d6d39e84422dc1b4bc6df5e23dc5d9e3a598737597797e3baeaac0b7a57  technical_supplement.pdf
