@@ -15,6 +15,7 @@ This is a document and selected-analysis release. Rebuilding the PDF, recalculat
 | S16: pending restoration | Six-row `data/pending_restore_counts.csv`, sufficient to recover the displayed aggregate | Re-establishing refusals and wire absence from all 18 episodes and bounded captures |
 | S17: delivery timing | All 720 paired outcomes in `data/timing_grid_cells.jsonl` and 90 rows in `data/timing_grid_aggregate.csv`; the displayed operating point can be reaggregated | Re-evaluating the timing grid from its separate 2,125 normalized reports or rejoining its raw reports |
 | S18 and Section 10 | Frozen 1,067 normalized reports, 48 actions, original evaluator/outcomes, plan and protocol; portable post-hoc driver reproduces all 12 cases and the weighted-mean diagnostic | Independent verification of normalization against full raw E2 bytes/source logs; an online restoration experiment |
+| S19 and Section 11: local concurrency | All 48 runs, 13,260 measured event records and 1,020 final snapshots; frozen worker code, synthetic inputs, offline recalculation and new local runs. Follow `concurrency/README.md` inside the extracted bundle | RAN control-path capacity, network-scale throughput, independent-host reliability or a new radio experiment |
 | Figure S1 | Exact vector asset | Reconstructing the plotted trace from raw A1/E2 capture |
 | Figure S2 | Exact vector asset; source-provenance paired-rule inputs/results are included | Plot-generation script and raw payload/source joins |
 

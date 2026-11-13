@@ -2,7 +2,7 @@
 
 Companion material for **From O-RAN Policies to Measured Outcomes: Release and Recovery in Practice**.
 
-- Read the [technical supplement PDF](technical_supplement.pdf): complete methods, Tables S1-S18, and Figures S1-S2.
+- Read the [technical supplement PDF](technical_supplement.pdf): complete methods, Tables S1-S19, and Figures S1-S2.
 - Download [companion_sources.zip](companion_sources.zip): editable TeX sources, selected retained data, portable analysis code, file manifest, and third-party license text.
 - Read [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the exact numerical reproduction limits.
 - Check [CHECKSUMS.txt](CHECKSUMS.txt) to verify the downloaded ZIP and PDF.
@@ -31,10 +31,14 @@ The script verifies all 48 original action outcomes from 1,067 normalized report
 
 ## Scope of this release
 
-This is a document and selected-analysis artifact, not the complete radio platform or all raw experiment captures. It can rebuild all 18 displayed tables and two figures as a document. It can also rerun the included source-provenance and retrospective analysis from normalized observations. It does **not** reproduce every table from raw inputs.
+This is a document and selected-analysis artifact, not the complete radio platform or all raw experiment captures. It can rebuild all 19 displayed tables and two figures as a document. It can also rerun the included source-provenance and retrospective analysis from normalized observations. It does **not** reproduce every table from raw inputs.
 
 The ZIP retains 720 delivery-timing rule-pair outcomes, 90 aggregate groups and pending-restoration counts; those are outputs from separate campaigns, whose raw inputs are not all included. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for table-by-table coverage. Raw-reference fields and project-relative `revision/...` references identify retained source records, not files necessarily distributed here.
 
-The measurements share one host, one UE and a software-radio path. They do not establish field reliability, a universal source-lag bound, or a benefit unique to a record representation.
+The software-radio campaigns use one host, one UE and a software-radio path. They do not establish field reliability, a universal source-lag bound, or a benefit unique to a record representation.
 
 No blanket license is assigned to the author manuscript, figures, data or code. The included OCUDU source retains its own copyright and license; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This repository does not claim publisher or upstream-project endorsement.
+
+The supplied PDF contains 28 pages. It includes Tables S1-S19 and Figures S1-S2.
+
+Section 11 and Table S19 report a single-host concurrency test. The included retained data and code are described in `concurrency/README.md` inside the extracted archive. These measurements do not establish RAN control-path capacity or deployment-scale reliability.
