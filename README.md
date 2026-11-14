@@ -39,6 +39,6 @@ The software-radio campaigns use one host, one UE and a software-radio path. The
 
 No blanket license is assigned to the author manuscript, figures, data or code. The included OCUDU source retains its own copyright and license; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This repository does not claim publisher or upstream-project endorsement.
 
-The supplied PDF contains 29 pages. It includes Tables S1-S19 and Figures S1-S2.
+The supplied PDF contains 27 pages. It includes Tables S1-S19 and Figures S1-S2.
 
 Section 11 and Table S19 report a single-host concurrency test. The included retained data and code are described in `concurrency/README.md` inside the extracted archive. These measurements do not establish RAN control-path capacity or deployment-scale reliability.
