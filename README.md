@@ -42,3 +42,5 @@ No blanket license is assigned to the author manuscript, figures, data or code. 
 The supplied PDF contains 27 pages. It includes Tables S1-S19 and Figures S1-S2.
 
 Section 11 and Table S19 report a single-host concurrency test. The included retained data and code are described in `concurrency/README.md` inside the extracted archive. These measurements do not establish RAN control-path capacity or deployment-scale reliability.
+
+The selected parameter extract `data/kpm_period_fields.csv` retains decoded granularity fields for 1,067 reports. `data/implementation_parameter_manifest.json` records requested settings, source hashes and implementation-audit locations. These files support reaggregation of the 891/176 report counts; they do not replace the separately retained raw captures.
