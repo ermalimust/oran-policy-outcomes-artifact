@@ -50,3 +50,5 @@ The selected model and replay evidence includes `data/natural_clearance_audit.js
 Section 10.1 distinguishes the nominal measurement period from host monotonic elapsed time. Its retained byte counts and rates are unchanged. A virtual-radio/host time difference is a possible explanation in the ZeroMQ setup, not an established cause or a measured KPM bias. Reset and snapshot traces do not retain slot identifiers.
 
 Section 6 identifies `metrics.periodicity.du_report_period` as the separately configured 1,000-ms RLC source period in the tested OCUDU 26.10 setup. The twelve source-tracing episodes vary requested reporting and granularity periods; they do not test a 200-ms source period. Section 2.2 explicitly labels both software-only schema and identifier checks as 10/10.
+
+The PDF command flags in Sections 9.1 and 10.3 use copyable ASCII `--compile` and `--output`. The existing srsRAN_4G tag and commit in Section 4 and OCUDU configuration setting in Section 6 link directly to their official upstream sources.
