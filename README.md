@@ -52,3 +52,5 @@ Section 10.1 distinguishes the nominal measurement period from host monotonic el
 Section 6 identifies `metrics.periodicity.du_report_period` as the separately configured 1,000-ms RLC source period in the tested OCUDU 26.10 setup. The twelve source-tracing episodes vary requested reporting and granularity periods; they do not test a 200-ms source period. Section 2.2 explicitly labels both software-only schema and identifier checks as 10/10.
 
 The PDF command flags in Sections 9.1 and 10.3 use copyable ASCII `--compile` and `--output`. The existing srsRAN_4G tag and commit in Section 4 and OCUDU configuration setting in Section 6 link directly to their official upstream sources.
+
+This artifact version is tagged [wcm-revision-20261117](https://github.com/ermalimust/oran-policy-outcomes-artifact/tree/wcm-revision-20261117). Section 9 links to this version and records the access date as November 17, 2026.
